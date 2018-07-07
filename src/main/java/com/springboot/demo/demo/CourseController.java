@@ -35,6 +35,11 @@ public class CourseController {
 
     @RequestMapping(value = "/courses/{id}", method=RequestMethod.PUT)
     public void update(@RequestBody Course course){courseService.update(course);}
+
+    @RequestMapping(value = "/find")
+    public void findcourse(){
+
+    }
 }
 
 
